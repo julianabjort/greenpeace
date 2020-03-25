@@ -48,9 +48,20 @@ ul {
 
   }
 
+  #margin {
+      margin-left: 50px;
+      margin-right: 50px;
+  }
+
+  h1 {
+    font-family: HelveticaNeue-CondensedBlack, sans-serif;
+    font-size: 50px;
+    color: #337D68;
+}
+
   h2 {
       font-family: HelveticaNeue-CondensedBlack, sans-serif;
-      font-size: 50px;
+      font-size: 40px;
       color: #337D68;
   }
 
@@ -59,6 +70,23 @@ ul {
     font-weight: bold;
     color: #337D68;
   }
+
+  h4 {
+    font-family: HelveticaNeue-CondensedBold, sans-serif;
+    font-size: 25px;
+    color: #337D68;
+
+}
+a {
+
+    text-decoration: none;
+}
+
+
+.link:hover {
+    color: #FFD200;
+}
+
 
   p {
       font-family: HelveticaNeue, sans-serif;
@@ -81,4 +109,14 @@ button {
     display: inline-block;
     font-size: 16px;
     font-family: HelveticaNeue-CondensedBold, sans-serif;
+    transition: .5s ease-out;
+    transform: scale(1);
+
+}
+
+button:hover {
+transition: .5s ease-in;
+transform: scale(1.05);
+background-color:#FFE466;
+
 }
