@@ -1,3 +1,10 @@
+body {
+    margin: 0;
+    background-image: url(https://images.pexels.com/photos/886521/pexels-photo-886521.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -17,7 +24,11 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: HelveticaNeue-CondensedBlack, sans-serif;
+    font-family: HelveticaNeue-CondensedBold, sans-serif;
+  }
+
+  .logo {
+      float:left;
   }
 
   li a:hover {
@@ -31,10 +42,9 @@ ul {
     grid-row-gap: 70px;
     grid-column-gap: 50px;
     padding-top: 50px;
-    justify-items: left;
+    justify-items: center;
     justify-content: center;
-    margin: 80px;
-
+    margin: 120px;
 
   }
 
@@ -42,6 +52,12 @@ ul {
       font-family: HelveticaNeue-CondensedBlack, sans-serif;
       font-size: 50px;
       color: #337D68;
+  }
+
+  h3 {
+    font-family: HelveticaNeue, sans-serif;
+    font-weight: bold;
+    color: #337D68;
   }
 
   p {
@@ -52,6 +68,17 @@ ul {
   .grid-container img{
     width: 35vw;
     height: auto;
+}
 
-
+button {
+    background-color: #FFD200;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: HelveticaNeue-CondensedBold, sans-serif;
 }
